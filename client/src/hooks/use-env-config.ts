@@ -44,7 +44,7 @@ export const useWebhookUrl = () => {
   
   useEffect(() => {
     const envWebhookUrl = import.meta.env.VITE_WEBHOOK_URL;
-    const defaultWebhookUrl = 'https://webhook.dev.testandoaulanapratica.shop/webhook/portfolio_virtual';
+    const defaultWebhookUrl = 'https://webhook.dev.iaassistente.store/webhook/portfolio_virtual';
     
     const finalWebhookUrl = envWebhookUrl || defaultWebhookUrl;
     console.log('VITE_WEBHOOK_URL ou URL padrão:', finalWebhookUrl);
